@@ -1,2 +1,20 @@
-# Sum-of-array
-I have  done a program on sum of Array using java
+import java.util.*;
+public class Main
+{
+  public static void main (String[]args)
+  {
+	Scanner sc = new Scanner (System.in);
+	int a = sc.nextInt ();
+	int sum = 0;
+	int[] arr = new int[a];
+
+	for (int i = 0; i < a; i++)
+	  {
+		arr[i] = sc.nextInt ();
+
+		sum = sum + arr[i];
+	  }
+	System.out.println (sum);
+  }
+
+}
